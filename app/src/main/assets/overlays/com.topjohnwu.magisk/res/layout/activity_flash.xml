@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.topjohnwu.magisk">
+    <include layout="@*com.topjohnwu.magisk:layout/toolbar" />
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@*com.topjohnwu.magisk:id/flash_logs" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@*com.topjohnwu.magisk:id/button_panel" android:background="@*android:color/button_material_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="?android:buttonStyle">
+        <Button android:id="@*com.topjohnwu.magisk:id/no_thanks" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@*com.topjohnwu.magisk:string/close" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+        <Button android:id="@*com.topjohnwu.magisk:id/reboot" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@*com.topjohnwu.magisk:string/reboot" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

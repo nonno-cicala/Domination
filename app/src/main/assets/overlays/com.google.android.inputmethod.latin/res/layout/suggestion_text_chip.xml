@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@*android:color/white" android:background="@*com.google.android.inputmethod.latin:drawable/suggestion_chip_outline" style="@*com.google.android.inputmethod.latin:style/GbotTextChip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
