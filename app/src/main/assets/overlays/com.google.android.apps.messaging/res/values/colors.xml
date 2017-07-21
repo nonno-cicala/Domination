@@ -235,8 +235,8 @@
     <color name="sticker_empty_list_view_tag_line_text_color">#ffffffff</color>
     <color name="sticker_tab_icon_background">@*android:color/button_material_dark</color>
     <color name="sticker_tab_add_icon_stroke_color">#ff555555</color>
-    <color name="fastscroll_track_color">#ff555555</color>
-    <color name="fastscroll_thumb_color">@*android:color/button_material_dark</color>
+    <color name="fastscroll_track_color">@*android:color/button_material_dark</color>
+    <color name="fastscroll_thumb_color">@*android:color/accent_material_dark</color>
     <color name="fastscroll_preview_text_color">#ffffffff</color>
 
     <color name="google_blue_grey_600">#ffdddddd</color>
@@ -261,4 +261,37 @@
 
 
     <color name="c2o_grid_background">@*android:color/background_dark</color>
+
+
+    <color name="c2o_category_toggle_background">#ffd32f2f</color>
+    <color name="c2o_content_item_selected_index_background_color">#ff555555</color>
+    <color name="c2o_content_item_selected_index_text_color">#ffffffff</color>
+    <color name="c2o_content_item_tint_end_color">#fffbc02d</color>
+
+    <color name="c2o_permission_item_text_color">#ffffffff</color>
+
+    <color name="compose_contact_to_label_text">#ffffffff</color>
+    <color name="contact_picker_group_create_background_tint">@*android:color/background_floating_material_dark</color>
+    <color name="contact_picker_group_create_label_text">#ffffffff</color>
+    <color name="conversation_list_loading_item_color">#ffe91e63</color>
+    <color name="conversation_list_prompt_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="conversation_list_prompt_negative_button_text_color">#ffffffff</color>
+    <color name="conversation_list_prompt_positive_button_background_color">#ff1976d2</color>
+    <color name="conversation_list_prompt_positive_button_text_color">#ffffffff</color>
+
+    <color name="conversation_list_prompt_title_text_color">#ffffffff</color>
+
+
+    <color name="google_blue_grey_700">#ffffffff</color>
+    <color name="ic_launcher_background">#ff0d47a1</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+
+
+
+
+    <color name="place_autocomplete_search_hint">#ffbbbbbb</color>
+    <color name="place_autocomplete_search_text">#ffffffff</color>
+    <color name="promo_link_text_color">#fffbc02d</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

@@ -35,4 +35,7 @@
     <color name="colorPrimary">#ffd32f2f</color>
     <color name="colorPrimaryDark">#ffb71c1c</color>
 
+
+    <color name="text_color_dark">#ffffffff</color>
+    <color name="text_color_light">#ffffffff</color>
 </resources>

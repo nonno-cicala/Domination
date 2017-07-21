@@ -53,17 +53,34 @@
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
     <attr name="srcCompat" format="reference" />
-    <attr name="tickMark" format="reference" />
-    <attr name="tickMarkTint" format="color" />
-    <attr name="tickMarkTintMode">
-        <enum name="add" value="16" />
+    <attr name="tint" format="color" />
+    <attr name="tintMode">
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
+    <attr name="tickMark" format="reference" />
+    <attr name="tickMarkTint" format="color" />
+    <attr name="tickMarkTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
+    </attr>
     <attr name="textAllCaps" format="reference|boolean" />
+    <attr name="autoSizeTextType">
+        <enum name="none" value="0" />
+        <enum name="uniform" value="1" />
+    </attr>
+    <attr name="autoSizeStepGranularity" format="dimension" />
+    <attr name="autoSizePresetSizes" format="reference" />
+    <attr name="autoSizeMinTextSize" format="dimension" />
+    <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="fontFamily" format="string" />
     <attr name="windowActionBar" format="boolean" />
     <attr name="windowNoTitle" format="boolean" />
     <attr name="windowActionBarOverlay" format="boolean" />
@@ -142,6 +159,7 @@
     <attr name="dropDownListViewStyle" format="reference" />
     <attr name="listPopupWindowStyle" format="reference" />
     <attr name="textAppearanceListItem" format="reference" />
+    <attr name="textAppearanceListItemSecondary" format="reference" />
     <attr name="textAppearanceListItemSmall" format="reference" />
     <attr name="panelBackground" format="reference" />
     <attr name="panelMenuListWidth" format="dimension" />
@@ -179,6 +197,9 @@
     <attr name="spinnerStyle" format="reference" />
     <attr name="switchStyle" format="reference" />
     <attr name="listMenuViewStyle" format="reference" />
+    <attr name="tooltipFrameBackground" format="reference" />
+    <attr name="tooltipForegroundColor" format="reference|color" />
+    <attr name="colorError" format="reference|color" />
     <attr name="fadeIn" format="boolean" />
     <attr name="placeholderDrawable" format="reference" />
     <attr name="cornerRadius" format="reference|dimension" />
@@ -209,12 +230,17 @@
     </attr>
     <attr name="textSize" format="reference|dimension" />
     <attr name="textColor" format="color" />
+    <attr name="titleText" format="reference|string" />
+    <attr name="descriptionText" format="reference|string" />
+    <attr name="verificationText" format="reference|string" />
+    <attr name="verificationIcon" format="reference" />
     <attr name="corpusId" format="string" />
     <attr name="corpusVersion" format="string" />
     <attr name="contentProviderUri" format="string" />
     <attr name="trimmable" format="boolean" />
     <attr name="schemaOrgType" format="string" />
     <attr name="semanticallySearchable" format="boolean" />
+    <attr name="documentMaxAgeSecs" format="integer" />
     <attr name="perAccountTemplate" format="boolean" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
@@ -226,9 +252,19 @@
     <attr name="thickness" format="dimension" />
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontStyle">
+        <enum name="normal" value="0" />
+        <enum name="italic" value="1" />
+    </attr>
+    <attr name="font" format="reference" />
+    <attr name="fontWeight" format="integer" />
     <attr name="searchEnabled" format="boolean" />
-    <attr name="searchLabel" format="string" localization="suggested" />
-    <attr name="settingsDescription" format="string" localization="suggested" />
+    <attr name="searchLabel" format="string" />
+    <attr name="settingsDescription" format="string" />
     <attr name="defaultIntentAction" format="string" />
     <attr name="defaultIntentData" format="string" />
     <attr name="defaultIntentActivity" format="string" />
@@ -243,8 +279,9 @@
         <enum name="large_icon_uri" value="7" />
         <enum name="text1" value="0" />
         <enum name="text2" value="1" />
+        <enum name="thing_proto" value="9" />
     </attr>
-    <attr name="sectionContent" format="string" localization="suggested" />
+    <attr name="sectionContent" format="string" />
     <attr name="orientation">
         <enum name="horizontal" value="0" />
         <enum name="vertical" value="1" />
@@ -259,10 +296,10 @@
     <attr name="rowOrderPreserved" format="boolean" />
     <attr name="columnOrderPreserved" format="boolean" />
     <attr name="layout_row" format="integer" />
-    <attr name="layout_rowSpan" format="integer" min="1" />
+    <attr name="layout_rowSpan" format="integer" />
     <attr name="layout_rowWeight" format="float" />
     <attr name="layout_column" format="integer" />
-    <attr name="layout_columnSpan" format="integer" min="1" />
+    <attr name="layout_columnSpan" format="integer" />
     <attr name="layout_columnWeight" format="float" />
     <attr name="layout_gravity">
         <flag name="bottom" value="0x00000050" />
@@ -330,6 +367,28 @@
     <attr name="zOrderOnTop" format="boolean" />
     <attr name="uiMapToolbar" format="boolean" />
     <attr name="ambientEnabled" format="boolean" />
+    <attr name="cameraMinZoomPreference" format="float" />
+    <attr name="cameraMaxZoomPreference" format="float" />
+    <attr name="latLngBoundsSouthWestLatitude" format="float" />
+    <attr name="latLngBoundsSouthWestLongitude" format="float" />
+    <attr name="latLngBoundsNorthEastLatitude" format="float" />
+    <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="alphabeticModifiers">
+        <flag name="ALT" value="0x00000002" />
+        <flag name="CTRL" value="0x00001000" />
+        <flag name="FUNCTION" value="0x00000008" />
+        <flag name="META" value="0x00010000" />
+        <flag name="SHIFT" value="0x00000001" />
+        <flag name="SYM" value="0x00000004" />
+    </attr>
+    <attr name="numericModifiers">
+        <flag name="ALT" value="0x00000002" />
+        <flag name="CTRL" value="0x00001000" />
+        <flag name="FUNCTION" value="0x00000008" />
+        <flag name="META" value="0x00010000" />
+        <flag name="SHIFT" value="0x00000001" />
+        <flag name="SYM" value="0x00000004" />
+    </attr>
     <attr name="showAsAction">
         <flag name="always" value="0x00000002" />
         <flag name="collapseActionView" value="0x00000008" />
@@ -340,6 +399,17 @@
     <attr name="actionLayout" format="reference" />
     <attr name="actionViewClass" format="string" />
     <attr name="actionProviderClass" format="string" />
+    <attr name="contentDescription" format="string" />
+    <attr name="tooltipText" format="string" />
+    <attr name="iconTint" format="color" />
+    <attr name="iconTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
+    </attr>
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="subMenuArrow" format="reference" />
     <attr name="overlapAnchor" format="boolean" />
@@ -367,6 +437,11 @@
     <attr name="spanCount" format="integer" />
     <attr name="reverseLayout" format="boolean" />
     <attr name="stackFromEnd" format="boolean" />
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
     <attr name="layout" format="reference" />
     <attr name="iconifiedByDefault" format="boolean" />
     <attr name="queryHint" format="string" />
@@ -382,6 +457,7 @@
     <attr name="submitBackground" format="reference" />
     <attr name="sectionId" format="string" />
     <attr name="sectionFormat">
+        <enum name="date" value="4" />
         <enum name="html" value="1" />
         <enum name="plain" value="0" />
         <enum name="rfc822" value="2" />
@@ -416,22 +492,22 @@
     <attr name="primaryColor" format="color" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
-        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
     </attr>
     <attr name="track" format="reference" />
     <attr name="trackTint" format="color" />
     <attr name="trackTintMode">
-        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
     </attr>
     <attr name="thumbTextPadding" format="dimension" />
     <attr name="switchTextAppearance" format="reference" />
