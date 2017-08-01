@@ -79,7 +79,7 @@
     <color name="label_non_prime_header_deactive_dark_theme">#ffaaaaaa</color>
     <color name="label_popup_footer_material_dark_theme">#54cfd8dc</color>
     <color name="label_popup_material_dark_theme">#ffffffff</color>
-    <color name="label_popup_pressed_google_blue_theme">#ff4285f4</color>
+    <color name="label_popup_pressed_google_blue_theme">#ff1976d2</color>
     <color name="label_popup_pressed_material_dark_theme">@*android:color/dim_foreground_light</color>
 
     <color name="label_sup_light_material_dark_theme">#ffbbbbbb</color>
@@ -148,5 +148,11 @@
     <color name="tutorial_press_color">#4c1976d2</color>
 
     <color name="voiceime_circle_color">@*android:color/button_material_dark</color>
+
+
+
+    <color name="allo_privacy_text_color">#ffdddddd</color>
+    <color name="bitmoji_green">#ff388e3c</color>
+
 
 </resources>

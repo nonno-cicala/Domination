@@ -7,11 +7,9 @@
 
     <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
 
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+
 
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
-    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
 

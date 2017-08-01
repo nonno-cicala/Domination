@@ -327,7 +327,7 @@
     <!-- New with 11.27.53 -->
     <color name="button_ripple_color">#4fffffff</color>
     <color name="chat_text_item_bg_color">#b3000000</color>
-    <color name="mdx_status_bar_color">#00000000</color>
+    <color name="mdx_status_bar_color">@*android:color/primary_dark_material_dark</color>
     <color name="sponsor_text_item_bg_color">@*android:color/background_floating_material_dark</color>
 
     <!-- New with 11.41.54 -->
@@ -535,6 +535,7 @@
     <color name="companion_ad_action_cta_blue">#ff1976d2</color>
     <color name="display_ad_cta_blue">#ff1976d2</color>
     <color name="emoji_picker_divider_color">#00000000</color>
+    <color name="emoji_picker_light_category_text_color">#80ffffff</color>
     <color name="manage_membership_confirm_button_text">#ffd32f2f</color>
     <color name="offer_alerts">#ff1976d2</color>
     <color name="purchase_button_background">#ff388e3c</color>
@@ -542,4 +543,20 @@
     <color name="quantum_lightblueA400">#ff1976d2</color>
     <color name="upload_edit_choose_filter_view_background">@*android:color/button_material_dark</color>
     <color name="secondary_dark">#ffdddddd</color>
+
+
+    <color name="cluster_chip_text_default_color">#ffdddddd</color>
+    <color name="cluster_chip_toggled_background_color">#ff1976d2</color>
+    <color name="comment_text_underline_color">#ffdddddd</color>
+    <color name="list_item_swipe_background">@*android:color/button_material_dark</color>
+    <color name="pivot_bar_background_dark">@*android:color/background_floating_material_dark</color>
+    <color name="pivot_bar_content_tab_dark">#ffdddddd</color>
+
+    <color name="mdx_actionbar_background">@*android:color/primary_material_dark</color>
+    <color name="mdx_header_background_error">#ffd32f2f</color>
+    <color name="mdx_prefs_header">#ffffffff</color>
+    <color name="mdx_prefs_subtitle">#ffdddddd</color>
+    <color name="mdx_prefs_title">#ffffffff</color>
+    <color name="mdx_statusbar_background">@*android:color/primary_dark_material_dark</color>
+    <color name="live_chat_author_name">#8affffff</color>
 </resources>

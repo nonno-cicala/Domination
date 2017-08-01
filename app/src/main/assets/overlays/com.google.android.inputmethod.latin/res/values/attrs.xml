@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="AddIcon" format="reference" />
+    <attr name="ArtKeyboardSubCategoryRowWeight" format="float" />
     <attr name="AutocompleteQueryIcon" format="reference" />
     <attr name="BaseKeyboardBodyHeight" format="dimension" />
     <attr name="BgAccessPointIcon" format="reference" />
@@ -97,6 +99,8 @@
     <attr name="BgTranslateBoard" format="reference" />
     <attr name="CategoryTextLabelColor" format="reference" />
     <attr name="CategoryTextLabelSelectorDrawable" format="reference" />
+    <attr name="ColorBigPanelSeparator" format="reference" />
+    <attr name="ColorBigPanelSeparatorOpaque" format="reference" />
     <attr name="ColorCandidateSeparator" format="reference" />
     <attr name="ColorChordedTrack" format="color" />
     <attr name="ColorDragConfirmationDraggedBackground" format="float" />
@@ -119,7 +123,7 @@
     <attr name="ColorKeyboardTopSeparator" format="reference" />
     <attr name="ColorKeyboardTopSeparatorOpaque" format="reference" />
     <attr name="ColorLabel" format="color" />
-    <attr name="ColorLabel9KeyLeftPanel" format="color" />
+    <attr name="ColorLabel9KeySidePanel" format="color" />
     <attr name="ColorLabelCandidate" format="reference" />
     <attr name="ColorLabelComposingText" format="color" />
     <attr name="ColorLabelDashboardActiveLayout" format="color" />
@@ -141,6 +145,10 @@
     <attr name="ColorTranslateBoardLabel" format="reference" />
     <attr name="ComposingInnerPadding" format="dimension" />
     <attr name="DefaultQueryIcon" format="reference" />
+    <attr name="DigitKeyboardLeftPanelBigPanelBottomMargin" format="dimension" />
+    <attr name="DigitKeyboardLeftPanelBigPanelLeftMargin" format="dimension" />
+    <attr name="DigitKeyboardLeftPanelBigPanelRightMargin" format="dimension" />
+    <attr name="DigitKeyboardLeftPanelBigPanelTopMargin" format="dimension" />
     <attr name="EmojiDrawHintIconSize" format="dimension" />
     <attr name="EmojiHandwritingHintColor" format="color" />
     <attr name="EmojiHandwritingHintIcon" format="reference" />
@@ -148,13 +156,13 @@
     <attr name="Icon9KeyShiftUnderlineHighlight" format="reference" />
     <attr name="IconAccessPointAnimationDot" format="reference" />
     <attr name="IconAccessPointCloseOneHanded" format="reference" />
+    <attr name="IconAccessPointHandwriting" format="reference" />
     <attr name="IconAccessPointOneHanded" format="reference" />
     <attr name="IconAccessPointSearch" format="reference" />
     <attr name="IconAccessPointSetting" format="reference" />
     <attr name="IconAccessPointTextEditing" format="reference" />
     <attr name="IconAccessPointThemeSetting" format="reference" />
     <attr name="IconAccessPointTranslate" format="reference" />
-    <attr name="IconAccessPointsBack" format="reference" />
     <attr name="IconAccessPointsCloseMenu" format="reference" />
     <attr name="IconAccessPointsMenu" format="reference" />
     <attr name="IconAlpha" format="integer" />
@@ -164,25 +172,21 @@
     <attr name="IconArrowRight" format="reference" />
     <attr name="IconArrowUp" format="reference" />
     <attr name="IconArrowUpDisabled" format="reference" />
-    <attr name="IconBackSpace" format="reference" />
     <attr name="IconBarGreen" format="reference" />
     <attr name="IconBarUnlock" format="reference" />
     <attr name="IconBottomMarginBottom" format="dimension" />
     <attr name="IconCancel" format="reference" />
-    <attr name="IconCategoryActiveAlpha" format="integer" />
-    <attr name="IconCategoryInactiveAlpha" format="integer" />
     <attr name="IconCi" format="reference" />
     <attr name="IconDel" format="reference" />
+    <attr name="IconDelete" format="reference" />
     <attr name="IconDisabledAlpha" format="integer" />
     <attr name="IconDone" format="reference" />
     <attr name="IconDownArrow" format="reference" />
     <attr name="IconDropDown" format="reference" />
     <attr name="IconEditKeyboardAlpha" format="float" />
     <attr name="IconEnter" format="reference" />
-    <attr name="IconExitEditingKeyboard" format="reference" />
     <attr name="IconExpandKeyboard" format="reference" />
     <attr name="IconExpandKeyboardAlpha" format="float" />
-    <attr name="IconExpandKeyboardRightTop" format="reference" />
     <attr name="IconGlobeDisabled" format="reference" />
     <attr name="IconGlobeEnabled" format="reference" />
     <attr name="IconGo" format="reference" />
@@ -191,8 +195,6 @@
     <attr name="IconImeActionMarginBottom" format="dimension" />
     <attr name="IconIndicMoreAlpha" format="integer" />
     <attr name="IconKeyboardBackspace" format="reference" />
-    <attr name="IconKeyboardEditingOvalBack" format="reference" />
-    <attr name="IconKeyboardEditingOvalBackShadow" format="reference" />
     <attr name="IconKeyboardEditingOvalBackWithState" format="reference" />
     <attr name="IconLeftArrow" format="reference" />
     <attr name="IconLeftMostArrow" format="reference" />
@@ -215,7 +217,6 @@
     <attr name="IconPopupSetting" format="reference" />
     <attr name="IconPrevious" format="reference" />
     <attr name="IconRecent" format="reference" />
-    <attr name="IconResetKeyboard" format="reference" />
     <attr name="IconRightArrow" format="reference" />
     <attr name="IconRightMostArrow" format="reference" />
     <attr name="IconSearch" format="reference" />
@@ -238,6 +239,7 @@
     <attr name="IconStrokeShu" format="reference" />
     <attr name="IconStrokeWildcard" format="reference" />
     <attr name="IconStrokeZhe" format="reference" />
+    <attr name="IconSubCategoryActiveAlpha" format="integer" />
     <attr name="IconSubCategoryInactiveAlpha" format="integer" />
     <attr name="IconSubCategorySmileyActivity" format="reference" />
     <attr name="IconSubCategorySmileyAnimalsNature" format="reference" />
@@ -270,6 +272,7 @@
     <attr name="IconSwitchToSmileyAsAction" format="reference" />
     <attr name="IconSymbolKeyboardPage1Flip" format="reference" />
     <attr name="IconSymbolKeyboardPage2Flip" format="reference" />
+    <attr name="IconTabBitmoji" format="reference" />
     <attr name="IconTabEmotion" format="reference" />
     <attr name="IconTabGif" format="reference" />
     <attr name="IconTabGifDisabled" format="reference" />
@@ -283,6 +286,7 @@
     <attr name="IconZWJ" format="reference" />
     <attr name="IconZWNJ" format="reference" />
     <attr name="KeyboardBodyHeight" format="dimension" />
+    <attr name="KeyboardBottomTabWeight" format="float" />
     <attr name="KeyboardBottomWeight" format="float" />
     <attr name="KeyboardCandidateBodyPaddingTop" format="dimension" />
     <attr name="KeyboardInnerPadding" format="dimension" />
@@ -293,6 +297,7 @@
     <attr name="LabelBottomMarginBottom" format="dimension" />
     <attr name="MaxPageableCandidatesPerRow" format="integer" />
     <attr name="NoConnectionIcon" format="reference" />
+    <attr name="NoStickerPackIcon" format="reference" />
     <attr name="OneHandedBgComposingText" format="reference" />
     <attr name="OneHandedBgKeyboardBody" format="reference" />
     <attr name="OneHandedBgMoreCandidatesHolder" format="reference" />
@@ -311,6 +316,7 @@
     <attr name="PopupBubbleRectangularSmallLayout" format="reference" />
     <attr name="PopupBubbleUnderlineOnDecodeLayout" format="reference" />
     <attr name="PrimeKeyboardNumberRowWeight" format="float" />
+    <attr name="RecentImagesIcon" format="reference" />
     <attr name="RecentQueryIcon" format="reference" />
     <attr name="ScaleDragConfirmationDraggedColor" format="float" />
     <attr name="colorLabelDynamic" format="color" />
@@ -419,6 +425,7 @@
     <attr name="autoSizePresetSizes" format="reference" />
     <attr name="autoSizeMinTextSize" format="dimension" />
     <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="fontFamily" format="string" />
     <attr name="windowActionBar" format="boolean" />
     <attr name="windowNoTitle" format="boolean" />
     <attr name="windowActionBarOverlay" format="boolean" />
@@ -660,9 +667,6 @@
     <attr name="semanticallySearchable" format="boolean" />
     <attr name="documentMaxAgeSecs" format="integer" />
     <attr name="perAccountTemplate" format="boolean" />
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="textColorError" format="reference|color" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
     <attr name="drawableSize" format="dimension" />
@@ -687,6 +691,13 @@
     <attr name="fontProviderPackage" format="string" />
     <attr name="fontProviderQuery" format="string" />
     <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
     <attr name="fontStyle">
         <enum name="normal" value="0" />
         <enum name="italic" value="1" />
@@ -739,6 +750,18 @@
     </attr>
     <attr name="imageAspectRatio" format="float" />
     <attr name="circleCrop" format="boolean" />
+    <attr name="colorPrimaryLight" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryLight" format="color" />
+    <attr name="colorSecondaryDark" format="color" />
+    <attr name="colorPalettePrimary" format="reference" />
+    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="textColorError" format="reference|color" />
+    <attr name="colorMaterialControl" format="color" />
+    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -822,6 +845,7 @@
     <attr name="submitBackground" format="reference" />
     <attr name="sectionId" format="string" />
     <attr name="sectionFormat">
+        <enum name="date" value="4" />
         <enum name="html" value="1" />
         <enum name="plain" value="0" />
         <enum name="rfc822" value="2" />

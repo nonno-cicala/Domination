@@ -535,6 +535,7 @@
     <color name="companion_ad_action_cta_blue">#ff1976d2</color>
     <color name="display_ad_cta_blue">#ff1976d2</color>
     <color name="emoji_picker_divider_color">#00000000</color>
+    <color name="emoji_picker_light_category_text_color">#80ffffff</color>
     <color name="manage_membership_confirm_button_text">#ffd32f2f</color>
     <color name="offer_alerts">#ff1976d2</color>
     <color name="purchase_button_background">#ff388e3c</color>
@@ -557,4 +558,5 @@
     <color name="mdx_prefs_subtitle">#ffdddddd</color>
     <color name="mdx_prefs_title">#ffffffff</color>
     <color name="mdx_statusbar_background">@*android:color/primary_dark_material_dark</color>
+    <color name="live_chat_author_name">#8affffff</color>
 </resources>

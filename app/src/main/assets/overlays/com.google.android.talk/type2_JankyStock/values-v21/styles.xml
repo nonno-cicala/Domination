@@ -104,4 +104,13 @@
       <item name="*com.google.android.talk:colorPrimaryDark">@*com.google.android.talk:color/primary_dark</item>
       <item name="*com.google.android.talk:colorAccent">@*com.google.android.talk:color/accent_dark</item>
     </style>
+    
+    
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.talk:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.google.android.talk:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.talk:behavior_hideable">true</item>
+        <item name="*com.google.android.talk:behavior_skipCollapsed">false</item>
+    </style>
 </resources>

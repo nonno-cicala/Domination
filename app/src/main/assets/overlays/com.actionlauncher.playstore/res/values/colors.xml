@@ -203,5 +203,17 @@
     <color name="highlight">#ffd32f2f</color>
     <color name="highlight_focused">#ffb71c1c</color>
 
-
+    <color name="al_shortcut_notif_iconTint">#ffffffff</color>
+    <color name="deep_shortcut_header">@*android:color/background_floating_material_dark</color>
+    <color name="deep_shortcut_notif_primaryText">#ffffffff</color>
+    <color name="deep_shortcut_notif_secondaryText">#ffdddddd</color>
+    <color name="google_pill_edge_base">#55ffffff</color>
+    <color name="itempicker_checkbox">#ffffffff</color>
+    <color name="itempicker_text">#ffffffff</color>
+    <color name="notification_dot_folder_default">#ffbbbbbb</color>
+    <color name="unread_badge_pixel_cyan_color">#ff0097a7</color>
+    <color name="widget_section_title_color">#ffffffff</color>
+    <color name="widgets_cell_background">@*android:color/background_floating_material_dark</color>
+    <color name="widgets_cell_text">#ffdddddd</color>
+    <color name="widgets_section">@*android:color/background_dark</color>
 </resources>

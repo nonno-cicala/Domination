@@ -624,15 +624,17 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
-    <attr name="hintTextAppearance" format="reference" />
     <attr name="hintEnabled" format="boolean" />
+    <attr name="hintAnimationEnabled" format="boolean" />
+    <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperTextEnabled" format="boolean" />
+    <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
     <attr name="errorTextAppearance" format="reference" />
     <attr name="counterEnabled" format="boolean" />
     <attr name="counterMaxLength" format="integer" />
     <attr name="counterTextAppearance" format="reference" />
     <attr name="counterOverflowTextAppearance" format="reference" />
-    <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="passwordToggleEnabled" format="boolean" />
     <attr name="passwordToggleDrawable" format="reference" />
     <attr name="passwordToggleContentDescription" format="string" />

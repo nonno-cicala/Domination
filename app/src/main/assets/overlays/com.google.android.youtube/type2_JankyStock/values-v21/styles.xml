@@ -43,4 +43,18 @@
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
         <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
     </style>
+
+
+    <style name="Platform.ThemeOverlay.AppCompat" parent="">
+        <item name="android:colorControlNormal">@*android:color/white</item>
+        <item name="android:colorControlActivated">@*android:color/white</item>
+        <item name="android:colorButtonNormal">@*android:color/white</item>
+        <item name="android:colorControlHighlight">@*android:color/white</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="ThemeOverlay.YouTube.ActionBar" parent="@*com.google.android.youtube:style/Base.ThemeOverlay.YouTube.ActionBar">
+        <item name="android:colorControlNormal">@*android:color/white</item>
+    </style>
 </resources>

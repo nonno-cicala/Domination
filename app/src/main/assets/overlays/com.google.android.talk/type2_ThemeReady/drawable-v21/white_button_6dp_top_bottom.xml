@@ -5,7 +5,7 @@
         <inset android:insetTop="6.0dip" android:insetBottom="6.0dip">
             <shape>
                 <solid android:color="@*android:color/button_material_dark" />
-                <corners android:radius="@*com.google.android.apps.hangouts:dimen/button_corner_radius" />
+                <corners android:radius="@*com.google.android.talk:dimen/button_corner_radius" />
             </shape>
         </inset>
     </item>

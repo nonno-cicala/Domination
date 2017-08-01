@@ -28,12 +28,6 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1.0px</item>
     </style>
-    <style name="Avatar.ExploreStories" parent="@*com.instagram.android:style/Avatar">
-        <item name="android:layout_width">28.0dip</item>
-        <item name="android:layout_height">28.0dip</item>
-        <item name="*com.instagram.android:strokeColor">@*android:color/button_material_dark</item>
-        <item name="*com.instagram.android:strokeWidth">0.0dip</item>
-    </style>
     <style name="IgDialog" parent="@*android:style/Theme.Material.Dialog">
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@*android:color/transparent</item>
@@ -68,12 +62,6 @@
     </style>
     <style name="FixedTabBar.Whiteout" parent="@*com.instagram.android:style/FixedTabBar">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
-    </style>
-    <style name="IgSecondayWrappedButtonMultiline" parent="@*com.instagram.android:style/IgSecondaryButton">
-        <item name="android:ellipsize">none</item>
-        <item name="android:background">@*android:color/button_material_dark</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">false</item>
     </style>
     <style name="Base.Theme" parent="@*android:style/Theme.Holo">
         <item name="*com.instagram.android:backgroundColorPrimaryDark">@*android:color/primary_dark_material_dark</item>
@@ -114,13 +102,6 @@
         <item name="*com.instagram.android:segmentedUnderlineWidth">@*com.instagram.android:dimen/segmented_underline_width_whiteout</item>
         <item name="*com.instagram.android:igSwitchStyle">@*com.instagram.android:style/IgSwitchStyle</item>
     </style>
-    <style name="IgBadgeViewStyle" parent="@*com.instagram.android:style/TextViewStyle">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@*android:color/white</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@*com.instagram.android:drawable/badge_background</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
     <style name="TextViewStyle.Feed" parent="@*com.instagram.android:style/TextViewStyle">
         <item name="android:textColorLink">@*android:color/accent_material_dark</item>
     </style>
@@ -137,12 +118,6 @@
     <style name="TabBarButton">
         <item name="*com.instagram.android:normal">@*android:color/white</item>
         <item name="*com.instagram.android:active">@*android:color/dim_foreground_light</item>
-    </style>
-    <style name="PortraitReelTextOverlay">
-        <item name="android:textSize">@*com.instagram.android:dimen/font_small</item>
-        <item name="android:textColor">@*android:color/white</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:singleLine">true</item>
     </style>
     <style name="Widget.MediaTabHost" parent="">
         <item name="*com.instagram.android:mediaTabBackground">@*android:color/background_floating_material_dark</item>
@@ -215,10 +190,6 @@
         <item name="*com.instagram.android:peopleTagSearchBackground">@*android:color/background_floating_material_dark</item>
         <item name="*com.instagram.android:peopleTagSearchCacheColorHint">@*android:color/background_dark</item>
         <item name="*com.instagram.android:peopleTagSearchItemBackground">@*com.instagram.android:drawable/people_tagging_search_background</item>
-    </style>
-    <style name="TextAppearance.Snackbar.Message" parent="@*android:style/TextAppearance">
-        <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
-        <item name="android:textColor">@*android:color/white</item>
     </style>
     <style name="IgSettingsRadioButton">
         <item name="android:textSize">@*com.instagram.android:dimen/font_medium</item>
@@ -377,7 +348,7 @@
         <item name="*com.instagram.android:fixedTabBarTextColor">@*android:color/white</item>
         <item name="*com.instagram.android:textColorLocation">@*android:color/secondary_text_default_material_dark</item>
         <item name="*com.instagram.android:textSizeLocation">@*com.instagram.android:dimen/font_small</item>
-        <item name="*com.instagram.android:feedLikeActiveColor">@*android:color/white</item>
+        <item name="*com.instagram.android:feedLikeActiveColor">@*com.instagram.android:color/red_5</item>
         <item name="*com.instagram.android:feedSaveActiveColor">@*android:color/white</item>
         <item name="*com.instagram.android:gridLikeColor">@*android:color/accent_material_dark</item>
         <item name="*com.instagram.android:boldAllLinks">false</item>
@@ -485,12 +456,4 @@
         <item name="*com.instagram.android:filterListItemText">@*com.instagram.android:drawable/filter_list_text</item>
         <item name="*com.instagram.android:filterListCheckColor">@*android:color/white</item>
     </style>
-
-
-    <style name="Widget.Instagram.Divider.Redesign" parent="@*com.instagram.android:style/Widget.Instagram.Divider">
-        <item name="android:background">@*android:color/transparent</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">1.0px</item>
-    </style>
-
 </resources>

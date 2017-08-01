@@ -4,6 +4,6 @@
     <FrameLayout android:background="@*android:color/background_dark" android:id="@*com.instagram.android:id/layout_container_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="true" />
     <include layout="@*com.instagram.android:layout/action_bar" />
     <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/snack_bar" android:layout="@*com.instagram.android:layout/snackbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@*com.instagram.android:id/pixel_grid" android:layout="@*com.instagram.android:layout/pixel_grid_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@*com.instagram.android:id/pixel_guide_stub" android:inflatedId="@*com.instagram.android:id/pixel_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <ViewStub android:id="@*com.instagram.android:id/bottom_sheet_container_stub" android:layout="@*com.instagram.android:layout/bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </com.instagram.ui.widget.base.TouchInterceptorFrameLayout>

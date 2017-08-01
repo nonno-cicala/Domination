@@ -120,4 +120,9 @@
     <color name="notification_icon_bg">@*android:color/background_dark</color>
     <color name="notification_pressed">#ff555555</color>
     <color name="notification_divider">#00000000</color>
+
+
+    <color name="grey_900">@*android:color/primary_material_dark</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

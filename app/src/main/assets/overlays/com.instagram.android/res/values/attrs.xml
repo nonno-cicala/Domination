@@ -146,6 +146,7 @@
     <attr name="updatableButtonGlyphStyle" format="reference" />
     <attr name="inverseUpdatableButtonStyle" format="reference" />
     <attr name="followButtonStyle" format="string" />
+    <attr name="shouldShowFollowBack" format="boolean" />
     <attr name="state_blue" format="boolean" />
     <attr name="state_grey" format="boolean" />
     <attr name="capitalize" format="boolean" />
@@ -173,6 +174,11 @@
     <attr name="titleText" format="reference" />
     <attr name="titleInactive" format="reference" />
     <attr name="titleButtonPrimary" format="reference" />
+    <attr name="fittingIcon" format="reference" />
+    <attr name="fittingMaxWidth" format="dimension" />
+    <attr name="fittingText" format="string" />
+    <attr name="fittingTextColor" format="color" />
+    <attr name="fittingTextSize" format="dimension" />
     <attr name="image" format="reference" />
     <attr name="errorImage" format="reference" />
     <attr name="colorFilter" format="reference|color" />
@@ -511,10 +517,6 @@
     <attr name="listItemLayout" format="reference" />
     <attr name="progressLayout" format="reference" />
     <attr name="horizontalProgressLayout" format="reference" />
-    <attr name="alertDialogStyle" format="reference" />
-    <attr name="alertDialogButtonGroupStyle" format="reference" />
-    <attr name="alertDialogCenterButtons" format="boolean" />
-    <attr name="alertDialogTheme" format="reference" />
     <attr name="icon" format="reference" />
     <attr name="iconColor" format="color" />
     <attr name="defaultTitle" format="string" />
@@ -588,4 +590,8 @@
     <attr name="layout_marginStartPercent" format="fraction" />
     <attr name="layout_marginEndPercent" format="fraction" />
     <attr name="layout_aspectRatio" format="fraction" />
+    <item type="attr" name="APKTOOL_DUMMY_1cf">false</item>
+    <item type="attr" name="APKTOOL_DUMMY_1d0">false</item>
+    <item type="attr" name="APKTOOL_DUMMY_1d1">false</item>
+    <item type="attr" name="APKTOOL_DUMMY_1d2">false</item>
 </resources>

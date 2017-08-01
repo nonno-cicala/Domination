@@ -12,7 +12,5 @@
         </LinearLayout>
         <View android:layout_gravity="center|top" android:id="@*com.google.android.googlequicksearchbox:id/search_plate_separator" android:background="@*com.google.android.googlequicksearchbox:color/search_plate_separator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@*com.google.android.googlequicksearchbox:dimen/opa_search_plate_separator_height" />
     </FrameLayout>
-    <FrameLayout android:id="@*com.google.android.googlequicksearchbox:id/auto_complete_container" android:background="@*com.google.android.googlequicksearchbox:drawable/opa_suggestion_view_background_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.google.android.googlequicksearchbox:dimen/opa_suggestion_container_height">
-        <com.google.android.apps.gsa.shared.ui.SuggestionGridLayout android:layout_gravity="center_horizontal" android:id="@*com.google.android.googlequicksearchbox:id/auto_complete_grid" android:background="@*com.google.android.googlequicksearchbox:drawable/opa_suggestion_view_background_normal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
+    <com.google.android.apps.gsa.shared.ui.SuggestionGridLayout android:layout_gravity="center_horizontal" android:id="@*com.google.android.googlequicksearchbox:id/auto_complete_grid" android:background="@*com.google.android.googlequicksearchbox:drawable/opa_suggestion_view_background_normal" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@*com.google.android.googlequicksearchbox:dimen/opa_suggestion_container_height" />
 </LinearLayout>

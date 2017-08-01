@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@*com.instagram.android:id/browser_container" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/com.instagram.android">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ViewStub android:id="@*com.instagram.android:id/ix_progress_bar_stub" android:layout="@*com.instagram.android:layout/browser_lite_progress_bar_ix" android:inflatedId="@*com.instagram.android:id/progress_bar" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/instant_experience_chrome_height"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <ViewStub android:id="@*com.instagram.android:id/default_browser_chrome_container_stub" android:layout="@*com.instagram.android:layout/default_browser_chrome_container" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/browser_chrome_height" />
+            <ViewStub android:id="@*com.instagram.android:id/messenger_platform_chrome_container_stub" android:layout="@*com.instagram.android:layout/messenger_platform_chrome_container" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/browser_chrome_height" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@*com.instagram.android:id/new_offer_stub_lite_browser" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/browse_and_more_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <FrameLayout android:id="@*com.instagram.android:id/webview_container" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ViewStub android:layout_gravity="center" android:id="@*com.instagram.android:id/loading_screen" android:layout="@*com.instagram.android:layout/browser_lite_loading_screen_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <ViewStub android:id="@*com.instagram.android:id/offer_coupon_code_stub_lite_browser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" />
+            </LinearLayout>
+            <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/messenger_subscription_banner_stub" android:inflatedId="@*com.instagram.android:id/messenger_subscription_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/quote_bar_stub" android:inflatedId="@*com.instagram.android:id/quote_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@*com.instagram.android:id/browser_lite_debug_overlay_stub" android:layout="@*com.instagram.android:layout/browser_lite_debug_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="bottom" android:id="@*com.instagram.android:id/visual_prod_hist_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@*com.instagram.android:id/chrome_nav_drawer_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@*com.instagram.android:id/progress_bar_stub" android:layout="@*com.instagram.android:layout/browser_lite_progress_bar" android:inflatedId="@*com.instagram.android:id/progress_bar" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/browser_progressbar_height" />
+            <ViewStub android:id="@*com.instagram.android:id/splash_screen" android:layout="@*com.instagram.android:layout/browser_lite_splash_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@*com.instagram.android:id/ads_splash_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@*com.instagram.android:id/frame_full_screen_video" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

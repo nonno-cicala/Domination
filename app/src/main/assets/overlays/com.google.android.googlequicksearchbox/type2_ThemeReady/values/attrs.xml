@@ -16,6 +16,7 @@
         <enum name="match_parent" value="-1" />
         <enum name="wrap_content" value="-2" />
     </attr>
+    <attr name="carouselTextMarginEnd" format="dimension" />
     <attr name="carouselTextMarginStart" format="dimension" />
     <attr name="carouselTextMarginTop" format="dimension" />
     <attr name="columnCount" format="reference|integer" />
@@ -549,9 +550,6 @@
         <enum name="dark" value="2" />
         <enum name="light" value="1" />
     </attr>
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="textColorError" format="reference|color" />
     <attr name="dialogTitle" format="string" />
     <attr name="dialogMessage" format="string" />
     <attr name="dialogIcon" format="reference" />
@@ -570,10 +568,6 @@
     <attr name="text" format="reference" />
     <attr name="hasDefaultImage" format="boolean" />
     <attr name="title" format="string" />
-    <attr name="contentType">
-        <enum name="chromeOsOnboarding" value="3" />
-        <enum name="onboarding" value="1" />
-    </attr>
     <attr name="message" format="reference" />
     <attr name="messageSecondParagraph" format="reference" />
     <attr name="annotation" format="reference" />
@@ -602,6 +596,7 @@
     <attr name="uri" format="string" />
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
+    <attr name="aspectRatio" format="float" />
     <attr name="rippleColor" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
@@ -709,6 +704,18 @@
     <attr name="latLngBoundsSouthWestLongitude" format="float" />
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="colorPrimaryLight" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryLight" format="color" />
+    <attr name="colorSecondaryDark" format="color" />
+    <attr name="colorPalettePrimary" format="reference" />
+    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="textColorError" format="reference|color" />
+    <attr name="colorMaterialControl" format="color" />
+    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -895,7 +902,6 @@
     <attr name="seekBarIncrement" format="integer" />
     <attr name="adjustable" format="boolean" />
     <attr name="showSeekBarValue" format="boolean" />
-    <attr name="aspectRatio" format="float" />
     <attr name="selection_color" format="color" />
     <attr name="buttonSize" format="reference">
         <enum name="icon_only" value="2" />

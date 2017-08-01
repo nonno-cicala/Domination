@@ -848,4 +848,20 @@
     <color name="thinking_dot_green_color">#ff388e3c</color>
     <color name="thinking_dot_red_color">#ffd32f2f</color>
     <color name="thinking_dot_yellow_color">#fffbc02d</color>
+
+
+    <color name="assistant_settings_fab_color">#ff1976d2</color>
+    <color name="assistant_settings_fab_feature_highlight_color">#ff1976d2</color>
+    <color name="chatui_chromeos_status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="design_default_color_primary">#ff1976d2</color>
+    <color name="design_default_color_primary_dark">#ff0d47a1</color>
+    <color name="design_default_color_secondary">#ffd32f2f</color>
+    <color name="mtrl_btn_bg_color">@*android:color/button_material_dark</color>
+    <color name="mtrl_btn_bg_color_disabled">#ff555555</color>
+    <color name="mtrl_btn_bg_color_pressed">#ff555555</color>
+    <color name="scrim_color_dark">#eb000000</color>
+    <color name="scrim_color_light">#cc000000</color>
+
+    <color name="text_black_54_percent">#8affffff</color>
+    <color name="text_black_87_percent">#dfffffff</color>
 </resources>
